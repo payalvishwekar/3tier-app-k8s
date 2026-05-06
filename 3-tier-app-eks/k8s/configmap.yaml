@@ -4,7 +4,7 @@ metadata:
   name: app-config
   namespace: 3-tier-app-eks
 data:
-  DB_HOST: "postgres-db.3-tier-app-eks.svc.cluster.local"
+  DB_HOST: "mydb-3tier.cv26cacac4sd.us-east-1.rds.amazonaws.com"
   DB_NAME: "postgres"
   DB_PORT: "5432"
   FLASK_DEBUG: "0"
