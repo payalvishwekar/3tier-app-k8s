@@ -22,7 +22,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: skymonil/frontend-image:v4
+        #image: skymonil/frontend-image:v4
+        image: 287466334815.dkr.ecr.us-east-1.amazonaws.com/frontend-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
